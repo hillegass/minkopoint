@@ -20,3 +20,4 @@ apt-key add /var/cuda-repo-10-2-local-10.2.89-440.33.01/7fa2af80.pub
 apt-get update
 apt-get -y install --no-install-recommends cuda
 
+echo "Reboot your machine so the NVIDIA drivers are properly engaged."
